@@ -1,0 +1,45 @@
+.panel {
+  margin-top: 50px;
+  border: #ccc solid 1px;
+}
+.panel-heading h2 {
+}
+.ng-error {
+  position: absolute;
+  color: red;
+}
+.green {
+  border-color: green;
+}
+.red {
+  border-color: red;
+}
+/*.ngerror {
+  transition: all linear 2s;
+}
+.ngerror.ng-hide-add {
+  opacity: 0;
+}
+.ngerror.ng-hide-add.ng-hide-add-active {
+  opacity: 1;
+}
+.ngerror.ng-hide-remove.ng-hide-remove-active {
+  opacity: 1;
+}*/
+
+.funky-show-hide.ng-hide-add {
+  transform: rotateZ(0);
+  transform-origin: right;
+  transition: all 0.5s ease-in-out;
+}
+.funky-show-hide.ng-hide-add.ng-hide-add-active {
+  transform: rotateZ(-135deg);
+}
+.funky-show-hide.ng-hide-remove {
+  transform: rotateY(90deg);
+  transform-origin: left;
+  transition: all 0.5s ease;
+}
+.funky-show-hide.ng-hide-remove.ng-hide-remove-active {
+  transform: rotateY(0);
+}

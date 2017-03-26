@@ -1,0 +1,16 @@
+.navbar-brand > img.brand {
+  display: inline-block;
+}
+.dropdown .accountBox {
+  padding: 5px 10px;
+}
+.accountBox .glyphicon-user {
+  margin-right: 10px;
+  font-size: 20px;
+  vertical-align: 6px;
+}
+.account {
+  display: inline-block;
+}
+.account {
+}

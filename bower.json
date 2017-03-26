@@ -1,0 +1,26 @@
+{
+  "name": "anguar_platform",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "sunheng"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "^1.6.3",
+    "angular-route": "^1.6.3",
+    "angular-ui-router": "^0.4.2",
+    "angular": "^1.6.3",
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}
